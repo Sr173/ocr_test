@@ -30,4 +30,4 @@ def ocr():
     return json.dumps(result, ensure_ascii=False)
 
 
-app.run(host='127.0.0.1', port='6867')
+app.run(host='127.0.0.1', port='6867', debug=False)
